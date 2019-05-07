@@ -60,6 +60,9 @@ class Song
     song.name = song_name
     song.artist_name = artist_name
     song.save
+  end
+
+  def self.destroy_all
 
   end
 end
