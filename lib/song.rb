@@ -23,7 +23,8 @@ class Song
   end
 
   def create_by_name
-
+    song.save
+    song
   end
 
 end
