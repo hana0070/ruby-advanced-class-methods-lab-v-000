@@ -22,7 +22,7 @@ class Song
     song
   end
 
-  def create_by_name
+  def self.create_by_name
     song.save
     song
   end
